@@ -18,7 +18,9 @@ export class LandingPageComponent implements OnInit, AfterViewInit {
     const typed1 = new Typed('.about-me', {
       strings: [this.aboutMeFull, this.aboutMeFull2],
       typeSpeed: 50,
-      backDelay: 500,
+      backDelay: 2000,
+      startDelay: 1000,
+      loop: true,
       cursorChar: '_',
     });
     const typed2 = new Typed('.cursor', {

@@ -15,7 +15,8 @@ export class AppComponent {
       licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
       anchors: ['home', 'about-me', 'thirdPage', 'fourthPage', 'lastPage'],
       menu: '#menu',
-      scrollingSpeed: 1500,
+      scrollingSpeed: 700,
+      navigation: true,
       // fullpage callbacks
       afterResize: () => {
         console.log('After resize');
