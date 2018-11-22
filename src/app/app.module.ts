@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot([]),
     AngularFontAwesomeModule,
     BrowserAnimationsModule,
     AngularFullpageModule

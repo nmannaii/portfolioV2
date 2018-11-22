@@ -18,13 +18,18 @@
     color: rgb(228, 228, 228);
     display: inline-block;
     margin-left: 2rem;
-    border: .2rem solid rgb(44, 3, 51);
-    border-radius: 1rem;
-    padding: 1rem;
     cursor: pointer;
     a {
+      display: block;
+      padding: 1rem;
       text-decoration: none;
       color: white;
+    }
+    #home {
+      border-color: rgb(62, 9, 92);
+    }
+    #about-me {
+      border-color: rgb(75, 24, 1);
     }
   }
   li:hover {

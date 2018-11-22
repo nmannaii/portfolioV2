@@ -17,6 +17,9 @@ export class AppComponent {
       menu: '#menu',
       scrollingSpeed: 700,
       navigation: true,
+      keyboardScrolling: true,
+	    animateAnchor: true,
+	    recordHistory: true,
       // fullpage callbacks
       afterResize: () => {
         console.log('After resize');
