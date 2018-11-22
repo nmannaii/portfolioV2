@@ -1,0 +1,70 @@
+#svg-container {
+  background-image: url('/assets/landing-bg3.jpeg');
+  background-size: fill;
+  background-size: 100% 100%;
+  overflow: hidden;
+  .overlay {
+    background: rgba(62, 9, 92, 0.644);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  //avatar
+  .avatar-container {
+    line-height: 100vh;
+    #avatar {
+      vertical-align: middle;
+      margin-left: 10rem;
+      width: 20rem;
+      border-radius: 50%;
+      border: solid .3rem white;
+      box-shadow: 15px 15px rgba(17, 17, 17, 0.527);
+    }
+  }
+  // signature
+  .text-container {
+    position: relative;
+  }
+  .text-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%,40%);
+    .name-container {
+      display: block;
+    }
+    #first-name {
+      display: block;
+      font-family: 'Poppins';
+      font-weight: 700;
+      font-size: 5rem;
+      color: rgb(255, 255, 255);
+      margin-right: 1rem;
+      filter: drop-shadow(25px 25px rgba(0, 0, 0, 0.2))
+    }
+    #last-name {
+      font-family: 'Poppins';
+      font-weight: 300;
+      font-size: 5rem;
+      color: rgb(255, 255, 255);
+      filter: drop-shadow(25px 25px rgba(0, 0, 0, 0.2))
+    }
+    #signature {
+      width: 30rem;
+      margin-top: 3rem;
+      filter: drop-shadow(15px 15px rgba(0, 0, 0, 0.2))
+    }
+  }
+}
+
+//typing animation
+.typewriter {
+  min-width: 40vw;
+  font-family: 'Poppins';
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+}
